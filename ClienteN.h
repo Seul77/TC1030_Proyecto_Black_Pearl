@@ -49,7 +49,7 @@ class Cliente{
         cout << "Ebrio: " << (ebrio ? "Sí" : "No") << endl;
     }
 
-    void pagarBebida(Bebida &b){
+    void pagarBebida(Bebida b){
         if (dinero >= b.getPrecio()){
             dinero -= b.getPrecio();
             cout << nombre << " ha pagado $" << b.getPrecio() << " por un " << b.getNombre() << ". " << endl;
