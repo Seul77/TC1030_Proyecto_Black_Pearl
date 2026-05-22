@@ -64,7 +64,7 @@ class Cadenero : public Empleado {
     Cadenero() : Empleado ("", 0, 0.0, "", "Cadenero") {};
     Cadenero(string n, int id, double s, string t) : Empleado(n, id, s, t, "Cadenero") {}
 
-    void expulsarCliente(Cliente &c){
+    void expulsarCliente(Cliente c){
         if (c.getEbrio()){
             cout << "El cadenero " << nombre << " ha expulsado al cliente " << c.getNombre() << " por estar ebrio." << endl;
         }
