@@ -14,3 +14,7 @@ compilar con: "g++ BebidaN.h ClienteN.h EmpleadoN.h BlackPearlN.h MainN.cpp"
 correr en linux: "/a.out"
 
 correr en windows: "a.exe"
+
+## Casos donde no funciona
+En el archivo main.cpp, 
+Si se escribe "abc" en el primer cin en lugar de un número, falla y el while se vuelve infinito
