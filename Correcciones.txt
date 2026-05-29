@@ -8,3 +8,5 @@ Re-evaluaciones:
 2. Mucho mejor el README. Recuerda de incluir los casos donde no funciona. Encuentra algunso atributos para Bartender y Cadenero para justificar la herencia. Incluye mostrar_info para esos dos también. Sobrecarga podría estar en más que solo constructor. Sobreescritura se ve bien. 
 
 2.1 Se corrige el UML, agregando atributos privados a cadenero y Bartender. Además, se agrega el atributo de bebidas consumidas al cliente.
+
+2.2 Se agregan casos en donde no funciona el codigo al README.
