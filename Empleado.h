@@ -49,13 +49,7 @@ class Empleado{
         return puesto;
     }
 
-    virtual void mostrarInfo(){
-        cout << "Nombre: " << nombre << endl;
-        cout << "ID: " << ID << endl;
-        cout << "Salario: $" << salario << endl;
-        cout << "Turno: " << turno << endl;
-        cout << "Puesto: " << puesto << endl;
-    }
+    virtual void mostrarInfo() = 0;
 };
 
 class Cadenero : public Empleado{
