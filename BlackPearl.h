@@ -10,22 +10,14 @@ using namespace std;
 
 class BlackPearl{
     private:
-    Cadenero* cadeneros[2];
-    DJ* djs[2];
-    Bartender* bartenders[2];
+    Empleado* empleados[6];
     Cliente* clientes[4];
     Bebida* bebidas[8];
 
     public: 
-    BlackPearl(Cadenero* c[2], DJ* d[2], Bartender* b[2], Cliente* cl[4], Bebida* be[8]){
-        for (int i = 0; i < 2; i++){
-            cadeneros[i] = c[i];
-        }
-        for (int i = 0; i < 2; i++){
-            djs[i] = d[i];
-        }
-        for (int i = 0; i < 2; i++){
-            bartenders[i] = b[i];
+    BlackPearl(Empleado* e[6], Cliente* cl[4], Bebida* be[8]){
+        for (int i = 0; i < 6; i++){
+            empleados[i] = e[i];
         }
         for (int i = 0; i < 4; i++){
             clientes[i] = cl[i];
@@ -37,15 +29,10 @@ class BlackPearl{
 
     void mostrarEmpleados(){
         cout << "Lista de empleados:" << endl;
-        for (Cadenero* c : cadeneros){
-            c->mostrarInfo();
-            cout << endl;}
-        for (DJ* d : djs){
-            d->mostrarInfo();
-            cout << endl;}
-        for (Bartender* b : bartenders){
-            b->mostrarInfo();
-            cout << endl;}
+        for (Empleado* e : empleados){
+            e->mostrarInfo();
+            cout << endl;
+        }
     }
 
     void mostrarClientes(){
