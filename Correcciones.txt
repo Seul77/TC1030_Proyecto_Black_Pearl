@@ -10,3 +10,11 @@ Re-evaluaciones:
 2.1 Se corrige el UML, agregando atributos privados a cadenero y Bartender. Además, se agrega el atributo de bebidas consumidas al cliente.
 
 2.2 Se agregan casos en donde no funciona el codigo al README.
+
+3. Declara virtuals y overrides pero NO demuestra polimorfismo en tiempo de ejecución: debe almacenar derivadas vía Empleado*.
+
+3.1 Se eliminan Cadenero*, Dj* y Bartender* y es reemplazado por Empleado* para hacer buen uso de polimorfismo.
+
+3.2 En el UML, se identifica la clase abstracta con itálicas
+
+3.3 Se agrega la clase abstracta en el código en Empleado.h
