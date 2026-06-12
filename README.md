@@ -16,6 +16,8 @@ El programa tiene distintas funcionalidades:
 - Empleado: Es la clase abstracta para los empleados
 - DJ: Empleado que controla la musica
 - Cadenero: Empleado que revisa y expulsa clientes
+- Bartender: Muestra su informacion
+- BlackPearl: Clase principal que administra a los empleados, clientes y bebidas
 
 ## Consideraciones
 compilar con: "g++ Bebida.h Cliente.h Empleado.h BlackPearl.h Main.cpp"
