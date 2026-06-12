@@ -1,12 +1,21 @@
 # TC1030_Proyecto_Black_Pearl
-Este proyecto se trata en el que tu rol es ser un supervisor, podria decirse como "el ojo de dios" de un antro. Tú eres el que controla lo que sucede, puedes controlar a los clientes para que compren bebidas, controlar a los empleados para que hagan su función cada uno. Cada objeto tiene distintos atributos que interactúan de forma distinta.
+Este proyecto simula el funcionamiento de un antro llamado Black Pearl. Tu rol es el de supervisor, eres el "ojo de dios" del lugar. Puedes controlar a los empleados para que hagan su función y a los clientes para que interactúen con el antro. Cada objeto tiene distintos atributos que interactúan de forma diferente entre sí.
 
 ## Funcionalidad
 El programa tiene distintas funcionalidades:
 - Los cadeneros pueden revisar a los clientes y decidir si los expulsan o no dependiendo de sus atributos
 - Los DJS pueden cambiar la musica, enseñarte la lista de géneros musicales que tienen, pueden agregar algun género que declares en el input
 - Los clientes pueden pedir bebidas dependiendo del dinero que tengan
-- El programa deja ver la información de todas las personas en el antro
+- Se puede ver la informacion de todas las personas dentro del antro
+- Los clientes tienen un contador de bebidas tomadas, si supera 4 bebidas, se consideran como ebrios
+- Los cadeneros pueden expulsar a los clientes ebrios o menores de edad
+
+## Clases
+- Bebida: Representa una bebida con nombre, precio, grado de alcohol
+- Cliente: Representa un nombre con nombre, edad, dinero, estado de embriaguez
+- Empleado: Es la clase abstracta para los empleados
+- DJ: Empleado que controla la musica
+- Cadenero: Empleado que revisa y expulsa clientes
 
 ## Consideraciones
 compilar con: "g++ Bebida.h Cliente.h Empleado.h BlackPearl.h Main.cpp"
