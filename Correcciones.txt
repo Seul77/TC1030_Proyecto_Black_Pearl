@@ -1,0 +1,32 @@
+Re-evaluaciones:
+1. No hay README. Esto es una parte indispensable de la entrega. Se especifica entre 4-7 clases, con 9 puede que el alcance sea demasiado grande para el proyecto. Falta multiplicidad. Cambiar Antro() a AntroBar(). Checar como se almacenan los objetos dentro de arreglos y si es la mejor manera. Falta identificación de clase abstracta. 
+
+1.1 Se eliminan las clases "Mesa" e "Inventario", se corrigen los constructores de las clases, se cambia la forma de almacenar objetos en las clases, se identifica que la clase "Empleado" es abstracta.
+
+1.2 Se agrega README al repositorio.
+
+2. Mucho mejor el README. Recuerda de incluir los casos donde no funciona. Encuentra algunso atributos para Bartender y Cadenero para justificar la herencia. Incluye mostrar_info para esos dos también. Sobrecarga podría estar en más que solo constructor. Sobreescritura se ve bien. 
+
+2.1 Se corrige el UML, agregando atributos privados a cadenero y Bartender. Además, se agrega el atributo de bebidas consumidas al cliente.
+
+2.2 Se agregan casos en donde no funciona el codigo al README.
+
+3. Declara virtuals y overrides pero NO demuestra polimorfismo en tiempo de ejecución: debe almacenar derivadas vía Empleado*.
+
+3.1 Se eliminan Cadenero*, Dj* y Bartender* y es reemplazado por Empleado* para hacer buen uso de polimorfismo.
+
+3.2 En el UML, se identifica la clase abstracta con itálicas
+
+3.3 Se agrega la clase abstracta en el código en Empleado.h
+
+4. Todo excelente. El concepto está empleado de manera correcta en tu diagrama UML 
+
+4.1 Se agregan los objetos al heap.
+
+4.2 Se comentan todos los archivos de código
+
+4.3 Cuando un cadenero expulsa a un cliente, desaparece de la lista
+
+4.4 Expulsar_cliente se vuelve boleano para poder eliminar a un cliente cuando se expulsa
+
+4.5 Se describe más el README
