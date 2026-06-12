@@ -9,7 +9,7 @@ El programa tiene distintas funcionalidades:
 - El programa deja ver la información de todas las personas en el antro
 
 ## Consideraciones
-compilar con: "g++ BebidaN.h ClienteN.h EmpleadoN.h BlackPearlN.h MainN.cpp"
+compilar con: "g++ Bebida.h Cliente.h Empleado.h BlackPearl.h Main.cpp"
 
 correr en linux: "/a.out"
 
@@ -17,4 +17,6 @@ correr en windows: "a.exe"
 
 ## Casos donde no funciona
 En el archivo main.cpp, 
-Si se escribe "abc" en el primer cin en lugar de un número, falla y el while se vuelve infinito
+Si se escribe "abc" en los inputs en lugar de un número, falla y el while se vuelve infinito
+Al controlar un cliente o al revisar clientes con el cadenero, si ya se expulsó a alguien, el programa intenta acceder a memoria eliminada y crashea ya que los loops usan el 4 fijo.
+agregaGenero en DJ no acepta nombres con espacios
